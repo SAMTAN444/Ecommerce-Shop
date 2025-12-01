@@ -35,3 +35,12 @@ h3 {
 .list-group-item:last-of-type {
   border-bottom: none !important;  
 }
+
+.email-link {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.email-link:hover {
+    text-decoration: underline;
+}
