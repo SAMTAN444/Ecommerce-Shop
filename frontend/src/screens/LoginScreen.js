@@ -24,9 +24,15 @@ function LoginScreen() {
 
     useEffect(() => {
         if (userInfo) {
-            navigate(redirect)
+            // force absolute path
+            if (redirect === '/') {
+                navigate('/')
+            } else {
+                navigate(`/${redirect}`)
+            }
         }
     }, [navigate, userInfo, redirect])
+
 
     const submitHandler = (e) => {
         e.preventDefault()
