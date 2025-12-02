@@ -115,7 +115,7 @@ function PlaceOrderScreen() {
                     </ListGroup>
                 </Col>
                 <Col md={4}>
-                    <Card className="p-3 border border-2 rounded">
+                    <Card className="p-3 border border-2 border-secondary rounded">
                         <ListGroup variant='flush'>
                             <ListGroup.Item>
                                 <h2>Order Summary</h2>

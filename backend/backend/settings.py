@@ -182,3 +182,5 @@ MEDIA_ROOT = 'static/images'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOW_ALL_ORIGINS = True
+
+PAYPAL_CLIENT_ID = "AU6Lq8zQYe9rkj3MB52CgDPnfDyKFbylLDhn4dLm9T5zsPHgWt_hmaXe6zOnp1xSzxdxLF1mu5O31kqJ"  
