@@ -16,7 +16,14 @@ import {
     userDeleteReducer,
     userUpdateReducer,
 } from '../reducers/userReducers'
-import { orderCreateReducer, orderDetailsReducer, orderPayReducer, orderListMyReducer } from '../reducers/orderReducers';
+import {
+    orderCreateReducer,
+    orderDetailsReducer,
+    orderPayReducer,
+    orderListMyReducer,
+    orderListReducer,
+    orderDeliverReducer,
+} from '../reducers/orderReducers';
 
 const cartItemsFromStorage = localStorage.getItem('cartItems') ? JSON.parse(localStorage.getItem('cartItems')) : []
 const userInfoFromStorage = localStorage.getItem('userInfo') ? JSON.parse(localStorage.getItem('userInfo')) : null
@@ -51,6 +58,8 @@ const store = configureStore({
         orderDetails: orderDetailsReducer,
         orderPay: orderPayReducer,
         orderListMy: orderListMyReducer,
+        orderList: orderListReducer,
+        orderDeliver: orderDeliverReducer,
     },
     preloadedState,
 });
