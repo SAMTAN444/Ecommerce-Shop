@@ -140,7 +140,6 @@ function ProductEditScreen() {
                             <Form.Control type="file" onChange={uploadFileHandler} />
                             {uploading && <Loader />}
                         </Form.Group>
-                            {uploading && <Loader />}
                         </Form.Group>
 
                         <Form.Group controlId='brand' className='mt-3'>
