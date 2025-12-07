@@ -5,8 +5,6 @@ The project includes product browsing, cart management, JWT authentication, chec
 
 ## 📸 Screenshots
 
-## 📸 Screenshots
-
 ### 🏠 Home Screen
 ![Home Screen](screenshots/homescreen.png)
 
@@ -37,7 +35,7 @@ The project includes product browsing, cart management, JWT authentication, chec
 ### Payments
 - PayPal REST SDK
 
-## ✨ Features
+##  Features
 
 ###  Shopping
 - View product list and details  
