@@ -39,32 +39,32 @@ The project includes product browsing, cart management, JWT authentication, chec
 
 ## ✨ Features
 
-### 🛍️ Shopping
+###  Shopping
 - View product list and details  
 - Ratings & reviews  
 - Add/remove items from cart  
 - Update quantities  
 - Redux-powered global cart state  
 
-### 👤 Users
+###  Users
 - Register & login using JWT  
 - Update profile  
 - View order history  
 - Protected routes  
 
-### 💳 Checkout
+###  Checkout
 - Shipping details  
 - Payment method selection  
 - PayPal checkout  
 - Order summary  
 
-### 🛠️ Admin
+###  Admin
 - Create / edit / delete products  
 - Manage users  
 - View all orders  
 - Mark orders as delivered  
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 ### Backend (Django REST Framework)
 - `views.py` → API endpoints  
@@ -79,7 +79,7 @@ The project includes product browsing, cart management, JWT authentication, chec
 - React Router for navigation  
 - Reusable components  
 
-## 🔐 Authentication (JWT)
+##  Authentication (JWT)
 
 1. User logs in  
 2. Django returns access + refresh tokens  
@@ -87,7 +87,7 @@ The project includes product browsing, cart management, JWT authentication, chec
 4. Axios sends `Authorization: Bearer <token>`  
 5. Protected routes require valid token  
 
-## ⚙️ Installation
+##  Installation
 
 ### 1. Clone the repo
 ```bash
@@ -110,13 +110,13 @@ npm install
 npm start
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 /backend  
 /frontend  
 README.md  
 
-## 🧭 Future Improvements
+##  Future Improvements
 - Deployment  
 - PostgreSQL upgrade  
 - Search filters  
